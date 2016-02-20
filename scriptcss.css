@@ -1,0 +1,136 @@
+html {
+	height: 100%;
+	position: relative;
+}
+
+body {
+	background-image: url(images/bg2.jpg);
+	background-repeat:	no-repeat;
+	background-size: 100%;
+	margin: 0px;
+	padding: 0px;
+	font-family: Roboto;
+
+}
+
+.container {
+	height: 100%;
+	background-color: #fffdd0;
+	box-shadow: 1px 1px 10px 1px rgba(0,0,0,.9);
+	width: 925px;
+}
+
+
+.carousel-control.right {
+    right: 26px;
+}
+
+.text-muted {
+	font-size: 10px;
+	text-align: center;
+	margin-bottom: 0;
+}
+
+.list-inline li {
+	margin-left: 14px;
+	text-align: center;
+	margin-top: 8px;
+	padding: 0px;
+}
+
+.custome2 a{
+	text-decoration: none;
+	color: black;
+}
+
+.custome {
+	text-align: justify;
+    margin-top: 34px;
+}
+
+.custome img {
+	padding-top: 9px;
+}
+
+.info {
+	font-size: 12px;
+}
+
+.logo {
+	margin-left: 18px;
+}
+
+.warna {
+	background-color: cornsilk;
+}
+
+.head {
+	text-align: center;
+}
+
+.paketinfo {
+	font-size: 11px;
+}
+
+.justify {
+	text-align: justify;
+	margin-bottom: 0px;
+}
+
+.margintop {
+	margin-top: 10px;
+}
+
+.marginall {
+	margin-top: 15px;
+}
+
+ 
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 70%;
+    height: 23px;
+}
+
+.nav-pills>li>a,
+.nav-pills>li.active>a, 
+.nav-pills>li.active>a:focus, 
+.nav-pills>li.active>a:hover{
+	background-color: transparent;
+	color: #f3a04d;
+	font-size: 20px;
+}
+
+#mainmenu {
+	font-family: Pacifico;
+}
+
+.padding {
+	padding-bottom: 5px;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+	background-color: transparent;
+	color: #f3a04d;
+	font-size: 20px;
+}
+
+#carousel-example-generic {
+	margin-bottom: 10px;
+}
+
+.carousel-control:focus, .carousel-control:hover {
+	border-radius: 5px;
+}
+.carousel-inner>.item>a>img, .carousel-inner>.item>img {
+	border-radius: 5px;
+}
+
+.carousel-control {
+	border-radius: 5px;
+}
+
+#info {
+	padding-bottom: 5px;
+}
