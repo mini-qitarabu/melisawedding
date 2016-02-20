@@ -136,3 +136,27 @@ body {
 #info {
 	padding-bottom: 5px;
 }
+
+.paddingall {
+	padding: 5px;
+}
+
+#info>li>img {
+	float: left;
+}
+
+#info>li {
+	height: 48px;
+}
+
+#info>li>div {
+	padding-top: 9px;
+}
+
+#info>li>#address {
+	padding-top: 0px;
+}
+
+#margininfo {
+	margin-bottom:10px;
+}
