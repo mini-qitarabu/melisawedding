@@ -4,9 +4,8 @@ html {
 }
 
 body {
-	background-image: url(images/bg2.jpg);
-	background-repeat:	no-repeat;
-	background-size: 100%;
+	min-height: 100%;
+	background: radial-gradient(transparent, black) no-repeat fixed, url(images/pattern3.jpg) repeat;
 	margin: 0px;
 	padding: 0px;
 	font-family: Roboto;
