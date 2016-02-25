@@ -181,7 +181,8 @@ body {
 }
 
 @media (min-width: 768px) {
-	.carousel-control.right {
+	.carousel-control .right {
 		right: 0px;
 	}
 }
+
