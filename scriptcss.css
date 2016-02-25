@@ -17,8 +17,7 @@ body {
 	height: auto;
 	background-color: #fffdd0;
 	box-shadow: 1px 1px 10px 1px rgba(0,0,0,.9);
-	width: 925px;
-	padding-bottom: 70px;
+	padding-bottom: 5px;
 }
 
 
@@ -79,7 +78,7 @@ body {
 }
 
 .margintop {
-	margin-top: 10px;
+	margin-top: 6px;
 }
 
 .marginall {
@@ -105,10 +104,6 @@ body {
 
 #mainmenu {
 	font-family: Pacifico;
-}
-
-.padding {
-	padding-bottom: 5px;
 }
 
 .nav>li>a:focus, .nav>li>a:hover {
@@ -150,6 +145,8 @@ body {
 
 #info>li>div {
 	padding-top: 9px;
+	word-wrap: break-word;
+    width: 208px;
 }
 
 #info>li>#address {
@@ -162,4 +159,29 @@ body {
 
 .top-buffer { 
 	margin-top:20px; 
+}
+
+@media (min-width: 1200px) {
+	.container {
+		width: 925px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.infomd {
+		width: 117px;
+	}
+}
+
+@media (min-width: 768px) {
+	.imgcustome img{
+		width: 800px;
+		margin: 0 auto;
+	}
+}
+
+@media (min-width: 768px) {
+	.carousel-control.right {
+		right: 0px;
+	}
 }
