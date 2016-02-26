@@ -161,28 +161,33 @@ body {
 	margin-top:20px; 
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 992px){
 	.container {
 		width: 925px;
 	}
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 992px){
 	.infomd {
-		width: 117px;
+		width: 925px;
 	}
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px){
 	.imgcustome img{
-		width: 800px;
+		width: 700px;
 		margin: 0 auto;
 	}
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px){
 	.carousel-control.right {
 		right: 0px;
 	}
 }
 
+@media (min-width: 768px){
+	.logosm {
+		width: 925px;
+	}
+}
