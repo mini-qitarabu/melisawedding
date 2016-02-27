@@ -18,6 +18,7 @@ body {
 	background-color: #fffdd0;
 	box-shadow: 1px 1px 10px 1px rgba(0,0,0,.9);
 	padding-bottom: 5px;
+	border-top:5px solid #f3a04d;
 }
 
 
@@ -57,7 +58,7 @@ body {
 }
 
 .logo {
-	margin-left: 18px;
+	margin-left: 9px;
 }
 
 .warna {
@@ -178,8 +179,6 @@ body {
 	.logosm {
 		width: 925px;
 	}
-}
-
 .list-group-item {
 	background-color: transparent; 
     border: none; 
@@ -193,4 +192,7 @@ a.list-group-item:hover {
 a.list-group-item:focus {
 	background-color: transparent;
 	border: none; 
+}
+#main-content {
+	background-color: #FFFEEB;
 }
