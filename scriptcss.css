@@ -150,12 +150,6 @@ body {
 	}
 }
 
-@media (min-width: 992px){
-	.infomd {
-		width: 925px;
-	}
-}
-
 @media (min-width: 768px){
 	.imgcustome img{
 		width: 800px;
@@ -195,4 +189,12 @@ a.list-group-item:focus {
 }
 #main-content {
 	background-color: #FFFEEB;
+}
+
+.infonopadding {
+	padding-left: 0px;
+}
+
+.infopadding {
+	padding: 5px 5px;
 }
