@@ -198,3 +198,9 @@ a.list-group-item:focus {
 .infopadding {
 	padding: 5px 5px;
 }
+
+@media (min-width: 768px){
+	.floatright {
+		float: right;
+		padding-bottom: 10px;
+	}
