@@ -203,4 +203,5 @@ a.list-group-item:focus {
 	.floatright {
 		float: right;
 		padding-bottom: 10px;
+		text-align: right;
 	}
