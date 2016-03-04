@@ -204,6 +204,7 @@ a.list-group-item:focus {
 		float: right;
 		padding-bottom: 10px;
 		text-align: right;
+		padding-top: 10px;
 	}
 @media (min-width: 992px){
 	.floatright {
