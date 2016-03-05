@@ -19,6 +19,8 @@ body {
 	box-shadow: 1px 1px 10px 1px rgba(0,0,0,.9);
 	padding-bottom: 5px;
 	border-top:5px solid #f3a04d;
+	border-bottom-right-radius: 2px;
+	border-bottom-left-radius: 2px;
 }
 
 
