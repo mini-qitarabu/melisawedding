@@ -104,7 +104,6 @@ body {
 
 #mainmenu {
 	font-family: Pacifico;
-	
 }
 
 
@@ -212,4 +211,8 @@ a.list-group-item:focus {
 		padding-bottom: 10px;
 		text-align: left;
 	}
+}
+.pacifico{
+	font-family: Pacifico;
+	color: #f3a04d;
 }
