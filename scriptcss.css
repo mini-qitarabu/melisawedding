@@ -88,12 +88,12 @@ body {
 .marginall {
 	margin-top: 15px;
 }
-
  
 .footer{
 	padding-top: 45px;
 	padding-bottom: 5px;
 }
+
 .nav-pills>li>a,
 .nav-pills>li.active>a, 
 .nav-pills>li.active>a:focus, 
@@ -103,11 +103,9 @@ body {
 	font-size: 20px;
 }
 
-
 #mainmenu {
 	font-family: Pacifico;
 }
-
 
 .nav>li>a:focus, .nav>li>a:hover {
 	background-color: transparent;
@@ -171,11 +169,6 @@ body {
 	}
 }
 
-@media (min-width: 768px){
-	.logosm {
-		width: 925px;
-	}
-}
 .list-group-item {
 	background-color: transparent; 
     border: none; 
@@ -190,6 +183,7 @@ a.list-group-item:focus {
 	background-color: transparent;
 	border: none; 
 }
+
 #main-content {
 	background-color: #FFFEEB;
 }
@@ -202,19 +196,22 @@ a.list-group-item:focus {
 	padding: 5px 5px;
 }
 
-@media (min-width: 768px){
+@media (min-width: 620px){
 	.floatright {
 		float: right;
 		padding-bottom: 10px;
 		text-align: right;
 		padding-top: 10px;
 	}
+}
+
 @media (min-width: 992px){
-	.floatright {
+	.floatleft {
 		padding-bottom: 10px;
 		text-align: left;
 	}
 }
+
 .pacifico{
 	font-family: Pacifico;
 	color: #f3a04d;
