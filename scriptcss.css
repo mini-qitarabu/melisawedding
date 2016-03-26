@@ -150,16 +150,15 @@ body {
 	}
 }
 
-@media (min-width: 768px){
+@media (min-width: 500px){
 	.imgcustome img{
-		width: 800px;
 		margin: 0 auto;
 	}
 }
 
 @media (min-width: 768px){
 	.carousel-control.right {
-		right: 0px;
+		right: auto;
 	}
 }
 
@@ -196,7 +195,7 @@ a.list-group-item:focus {
 	padding: 5px 5px;
 }
 
-@media (min-width: 620px){
+@media (min-width: 760px){
 	.floatright {
 		float: right;
 		padding-bottom: 10px;
@@ -215,4 +214,17 @@ a.list-group-item:focus {
 .pacifico{
 	font-family: Pacifico;
 	color: #f3a04d;
+}
+
+.navbarclr {
+	background-color: transparent;
+	border-color: transparent;
+}
+
+.mtop {
+	margin-top: 12px;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+	border-color: transparent;
 }
